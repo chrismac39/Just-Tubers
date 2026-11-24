@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "plannedRgos": [
+    {
+      "id": "cassava",
+      "aliases": {
+        "en": ["cassava", "manioc", "yuca"],
+        "fr": ["manioc"],
+        "es": ["yuca", "mandioca"],
+        "pt": ["mandioca", "macaxeira", "aipim"]
+      }
+    },
+    {
+      "id": "sweetpotato",
+      "aliases": {
+        "en": ["sweet potato", "sweet potatoes"],
+        "fr": ["patate douce"],
+        "es": ["batata", "camote", "boniato"],
+        "pt": ["batata-doce"]
+      }
+    },
+    {
+      "id": "taro",
+      "aliases": {
+        "en": ["taro", "colocasia", "cocoyam"],
+        "fr": ["taro", "colocase"],
+        "de": ["taro", "kolokasie"],
+        "es": ["taro", "colocasia", "malanga"],
+        "pt": ["taro", "inhame"]
+      }
+    }
+  ],
+  "availableRgoAliases": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "just-tubers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EU5 tuber RGO design and research tooling",
+  "scripts": {
+    "rgo:research": "tsx scripts/rgo-research/cli.ts",
+    "rgo:research:index": "tsx scripts/rgo-research/build-admin-scale-index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

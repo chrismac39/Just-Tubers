@@ -1,0 +1,22 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.bat]
+end_of_line = crlf
+
+[*.cmd]
+end_of_line = crlf
+
+[{in_game,main_menu}/**/*.{txt,gui}]
+charset = utf-8-bom
+indent_style = tab
+
+[{in_game,main_menu}/**/localization/**/*.yml]
+charset = utf-8-bom
+indent_style = space
+indent_size = 1
